@@ -29,4 +29,3 @@ class consultar(Resource):
     except:
       return 'error, fallo de ejecucion',200
 
-

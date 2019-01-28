@@ -11,5 +11,4 @@ class NewUser(Resource):
         form = NewUserForm(request.form)
         if not form.validate():
             return 'ko', 400
-
         return 'ok', 200
